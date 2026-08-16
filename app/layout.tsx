@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Bipin Alex | Full Stack Developer",
   description:
     "Full Stack Developer specializing in React, Next.js, Node.js, NestJS, SQL, NoSQL, and Cloud.",
+  verification: {
+    google: "ZZFoxBteQSQ8b7pHnJByQhDaCB4tA3rZpre_hLLxbOg",
+  },
 };
 
 export default function RootLayout({
