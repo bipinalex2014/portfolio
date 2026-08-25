@@ -20,6 +20,10 @@ export const navigation = [
     href: "/experience",
   },
   {
+    name: "My Works",
+    href: "/my-works",
+  },
+  {
     name: "Contact",
     href: "/contact",
   },
