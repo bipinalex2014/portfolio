@@ -1,6 +1,13 @@
 import Container from "@/components/ui/Container";
 
 const works = [
+    {
+    title: "Capichino - Social Platform",
+    description:
+      "Social platform for sharing photos, stories, thoughts, and experiences with your friends and family.",
+    category: "Social Platform",
+    href: "https://www.capichino.app/",
+  },
   {
     title: "Vespera – Free Online Photo Joiner",
     description:
@@ -16,19 +23,19 @@ const works = [
     href: "https://chromiva.vercel.app/",
   },
   {
+    title: "TextLens Extract Text from Image",
+    description:
+      "Extract text from images and convert them into a searchable format.",
+    category: "Developer Tool",
+    href: "https://textlens-lime.vercel.app/",
+  },
+  {
     title: "JSON to CSV Converter",
     description:
       "Convert JSON data into clean CSV format directly in your browser.",
     category: "Developer Tool",
     href: "https://data-converter-five.vercel.app/",
   },
-//   {
-//     title: "JSON Validator",
-//     description:
-//       "Validate JSON data and quickly identify syntax problems.",
-//     category: "Developer Tool",
-//     href: "#",
-//   },
 //   {
 //     title: "CSV to JSON",
 //     description:
