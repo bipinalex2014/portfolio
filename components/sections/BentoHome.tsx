@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/Card";
-import { Button } from "@/components/ui/Button";
+import { buttonVariants } from "@/components/ui/Button";
 import { Mail, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import ResumeButton from "../layout/ResumeButton";
@@ -45,7 +45,15 @@ export default function BentoHome() {
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
-                <Button size="lg">View My Work</Button>
+                <Link href="/my-works" className={buttonVariants({ size: "lg" })}>
+                  View My Work
+                </Link>
+                <Link
+                  href="/projects"
+                  className={buttonVariants({ variant: "outline", size: "lg" })}
+                >
+                  View My Projects
+                </Link>
                 <ResumeButton />
               </div>
             </CardContent>
